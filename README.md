@@ -6,7 +6,7 @@
 # STL
 # Sequence Container
 ### 2중 벡터 값 넣는 방법
-'''bush
+<pre><code>
 int main()
 {
         int x[2],y[2];
@@ -29,7 +29,7 @@ int main()
         }
         return 0;
 }
-'''bush
+</code></pre>
 # associate Container
 # Algorithm
 
