@@ -15,8 +15,8 @@ int main()
        y[0]=0;
        x[1]=2;
        y[1]=3;
-       vector<vector<int> > v;
-       vector<int> tmp1;		//x,y를 담을것
+       vector<'vector<'int> > v;
+       vector<'int> tmp1;		//x,y를 담을것
        for(int i=0;i<'2;i++)
        {
       	      tmp1.push_back(x[i]);	//vector = {1,0} 담고 {2,3}
@@ -26,7 +26,7 @@ int main()
        }
        for(int i=0;i<'2;i++)
        {
- 	      cout<<v[i][0]<<" "<<v[i][1]<<endl;
+ 	      cout<<'v[i][0]<<" "<<'v[i][1]<<'endl;
        }
        return 0;
 }
