@@ -7,8 +7,9 @@
 # Sequence Container
 ### 2중 벡터 값 넣는 방법
 <pre><code>
+	/*vector2D.cpp*/
  <blockquote>
-/*vector2D.cpp*/
+
 int main()
 {
        int x[2],y[2];
