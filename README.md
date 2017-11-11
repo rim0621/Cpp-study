@@ -7,6 +7,7 @@
 # Sequence Container
 ### 2중 벡터 값 넣는 방법
 <pre><code>
+ <blockquote>
 /*vector2D.cpp*/
 int main()
 {
@@ -30,10 +31,11 @@ int main()
        }
        return 0;
 }
+ </blockquote>
 </code></pre>
 # associate Container
 # Algorithm
 
 #참조
 <li> 뇌를 자극하는 c++ STL (한빛미니어)
-[`this is code`](https://github.com/rim0621/STL-study/blob/master/5.STL/DequeRandomIter.cpp)
+
