@@ -36,3 +36,4 @@ int main()
 
 #참조
 <li> 뇌를 자극하는 c++ STL (한빛미니어)
+[`this is code`](https://github.com/rim0621/STL-study/blob/master/5.STL/DequeRandomIter.cpp)
