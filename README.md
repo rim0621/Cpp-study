@@ -27,7 +27,7 @@ int main()
        }
        for(int i=0;i<'2;i++)
        {
- 	      cout<<'v[i][0]<<" "<<'v[i][1]<<endl;
+ 	      cout<<'v[i][0]<<" "<<'v[i][1]<<'endl;
        }
        return 0;
 }
