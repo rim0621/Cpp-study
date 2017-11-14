@@ -1,4 +1,36 @@
 # STL 이란
+# c++
+### c++ 소수점 출력 & 반올림 함수 만들기
+<pre><code>
+'''  	float roundFuction(float value)
+	{	
+	//	cout<<value<<endl;
+		return floor((value*pow(10,3)+0.5f))/pow(10,3);
+	}
+'''
+</code></pre>
+<pre><code>
+	int main()
+	{
+		int nCase;
+		scanf("%d",&nCase);
+		for(int n=0;n<nCase;n++)
+		{
+			int number;
+			int student[1003];
+			scanf("%d",&number);
+			for(int i=1;i<=number;i++)
+			{
+				scanf("%d",&student[i]);
+			}
+			cout.precision(3);
+			cout<<fixed<<ratio(student,number)<<"%"<<endl;;
+		}
+		return 0;
+	
+	}
+</code></pre>
+
 # Operator Overlarding
 # Function Pointer
 # Function Object
