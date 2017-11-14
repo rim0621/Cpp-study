@@ -4,7 +4,7 @@
 ```C++
 float roundFuction(float value)
 {	
-	return floor((value*pow(10,3)+0.5f))/pow(10,3);
+	return floor((value*pow(10,3)+0.5f))/pow(10,3); //3번째 자리까지 
 }
 ```
 ### 소수점 출력
@@ -22,8 +22,8 @@ int main()
 			{
 				scanf("%d",&student[i]);
 			}
-			cout.precision(3);
-		cout<<fixed<<ratio(student,number)<<"%"<<endl;;
+			cout.precision(3);		//3번째 자리까지 출력한다.
+		cout<<fixed<<ratio(student,number)<<"%"<<endl;	//fixed 필수!!!
 	}
 	return 0;
 }
