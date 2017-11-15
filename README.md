@@ -71,6 +71,10 @@ m.insert(pair<int,int>(5,100)) // 키값을 5, 벨류를 100
 iter->first // 키값 출력
 iter->second // 벨류값 출력
 ```
+### map Remove
+```C++
+m.erase(key); // 맵에서 해당 키와 벨류 삭제
+```
 # Algorithm
 
 # 참조
