@@ -6,13 +6,20 @@ using namespace std;
 int main()
 {
 	vector<int> v;
-	v.push_back(10);
-        v.push_back(20);
-      v.push_back(30);
-      v.push_back(40);
-      v.push_back(50);
-      v.push_back(60);
-	make_heap(v.begin(),v.end());
+	v.push_back(3);
+        v.push_back(2);
+      v.push_back(4);
+      v.push_back(5);
+      v.push_back(1);
+      v.push_back(12);
+     v.push_back(11);
+     v.push_back(10);
+     v.push_back(6);
+     v.push_back(9);
+     v.push_back(7);
+     v.push_back(8);
+
+	make_heap(v.begin(),v.end(),greater<int>());
 	cout<<"make heap: ";
 	for(vector<int>::size_type i=0; i<v.size();++i)
 		cout<<v[i]<<" ";
