@@ -76,7 +76,7 @@ iter->second // 벨류값 출력
 m.erase(key); // 맵에서 해당 키와 벨류 삭제
 ```
 # Algorithm
-# [Iterator]https://github.com/rim0621/Cpp-study/tree/master/10.iterator
+# [Iterator](https://github.com/rim0621/Cpp-study/tree/master/10.iterator)
 # 참조
 <li> 뇌를 자극하는 c++ STL (한빛미니어)
 
