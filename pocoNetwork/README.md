@@ -49,13 +49,13 @@ ds.connect(SocketAddress("localhost",9911));
 ```
 #### DNS(도메인 네임 시스템) Class
 * Poco::Net::DNS 클래스를 사용하여 DNS로 IP주소를 얻거나 그 반대로도 얻을 수 있다.
-- [code](https://github.com/rim0621/Cpp-study/tree/master/pocoNetwork/nameResolution.cpp)
-
-
-
-
-
-
+* [code](https://github.com/rim0621/Cpp-study/tree/master/pocoNetwork/nameResolution.cpp)
+#### Socket
+* 소켓 클래스는 BSD소켓의(?) 기능을 클래스로 구현한것.
+ - 기능 : select, poll, epoll, socket option 설정하기, socket에 연결된 IP 주소를 얻을 수 있다.
+#### StreamSocket 클래스
+* TCP로 서버에 접속할 때 사용, 클라이언트용으로 소켓을 사용할 때 사용.
+* [HTTP server 접속 code](https://github.com/rim0621/Cpp-study/tree/master/pocoNetwork/HTTPaccess.cpp)
 
 
 
