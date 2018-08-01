@@ -1,12 +1,18 @@
 # C++
-### 반올림 함수 
+
+> C++ 기술서
+
+### 반올림 함수
+
 ```C++
 float roundFuction(float value)
-{	
-	return floor((value*pow(10,3)+0.5f))/pow(10,3); //3번째 자리까지 
+{
+	return floor((value*pow(10,3)+0.5f))/pow(10,3); //3번째 자리까지
 }
 ```
+
 ### 소수점 출력
+
 ```C++
 int main()
 {
@@ -26,4 +32,21 @@ int main()
 	}
 	return 0;
 }
+```
+### 2차원 동적할당
+
+```c++
+int **arr = new int *[r];
+for(int i=0;i<r;i++)
+{
+	arr[i] = new int[c];
+	memset(arr[i],'init',sizeof(int)* c);
+}
+
+//해제
+
+for(int i = 0; i < sizeY; ++i) {
+	delete [] arr[i];
+}
+ delete [] arr;
 ```

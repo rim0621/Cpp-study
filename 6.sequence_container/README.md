@@ -1,5 +1,7 @@
 # Sequence Container
-#### 2중 벡터 값 넣는 방법
+
+### 2중 벡터 값 넣는 방법
+
 ```C++
 /*vector2D.cpp*/
 
@@ -25,5 +27,19 @@ int main()
        }
        return 0;
 }
- 
+
+```
+
+### vector와 struct 사용할 때 초기화
+
+```c++
+
+struct Location{
+        int c,r,time;
+        Location(int tmpc,int tmpr): c(tmpc), r(tmpr)
+        {}
+};
+
+vector<Location> lo;
+lo.push_back(Location(i,j));
 ```
